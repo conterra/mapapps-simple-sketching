@@ -14,25 +14,6 @@
 /// limitations under the License.
 ///
 
-interface PropertiesObject {
-    [key: string]: any;
-}
+import "ct/tools/Tool";
 
-export class Hello {
-    private msg: string;
-    _properties: PropertiesObject;
-
-    activate() {
-        this.msg = this._properties.message;
-    }
-
-    print() {
-        // eslint-disable-next-line no-alert
-        alert(this.getMessage());
-    }
-
-    getMessage() {
-        return this.msg;
-    }
-
-}
+export { SketchingWidgetFactory } from "./SketchingWidgetFactory";

@@ -8,6 +8,7 @@
             "bundles"
         ],
         "allowedBundles": [
+            "console",
             "agssearch",
             "banner",
             "basemaptoggler",
@@ -34,7 +35,8 @@
             "theme-autumn",
             "toc",
             "toolset",
-            "dn_imprintprivacy"
+            "dn_imprintprivacy",
+            "dn_sketching"
         ],
         "i18n": [
             "bundle"
@@ -425,6 +427,7 @@
                     {
                         "id": "mapview_tools",
                         "tools": [
+                            "sketchingToggleTool2",
                             "locateMeTool",
                             "zoomInTool",
                             "zoomOutTool",
