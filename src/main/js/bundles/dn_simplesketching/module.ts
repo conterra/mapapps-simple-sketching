@@ -14,17 +14,6 @@
 /// limitations under the License.
 ///
 
-const i18n = {
-    root: {
-        bundleName: "Hello World",
-        bundleDescription: "This bundle prints Hello.",
-        hello: "Hello World"
-    },
-    de: true
-};
+import "ct/tools/Tool";
 
-export type Messages = (typeof i18n)["root"];
-export interface MessagesReference {
-    get: () => Messages
-}
-export default i18n;
+export { SimpleSketchingWidgetFactory } from "./SimpleSketchingWidgetFactory";

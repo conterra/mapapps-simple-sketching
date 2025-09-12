@@ -36,7 +36,7 @@
             "toc",
             "toolset",
             "dn_imprintprivacy",
-            "dn_sketching"
+            "dn_simplesketching"
         ],
         "i18n": [
             "bundle"
@@ -427,7 +427,7 @@
                     {
                         "id": "mapview_tools",
                         "tools": [
-                            "sketchingToggleTool2",
+                            "simpleSketchingToggleTool",
                             "locateMeTool",
                             "zoomInTool",
                             "zoomOutTool",

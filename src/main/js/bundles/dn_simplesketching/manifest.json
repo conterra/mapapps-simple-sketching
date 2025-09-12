@@ -1,0 +1,89 @@
+{
+    "name": "dn_simplesketching",
+    "version": "1.1.3-SNAPSHOT",
+    "title": "${bundleName}",
+    "description": "${bundleDescription}",
+    "vendor": "con terra GmbH",
+    "keywords": [
+        "sample"
+    ],
+    "icon": {},
+    "main": "",
+    "productName": "devnet-mapapps-simplesketching",
+    "dependencies": {
+        "ct": "^4.9.0",
+        "esri": "^4.14.0",
+        "esri-widgets": "^4.9.0",
+        "map-widget": "^4.9.0",
+        "apprt-binding": "^4.9.0"
+    },
+    "CSS-Themes-Extension": [
+        {
+            "name": "*",
+            "files": [
+                "./css/styles.css"
+            ]
+        }
+    ],
+    "layout-widgets": [
+        {
+            "widgetRole": "simpleSketchingWidget",
+            "window": {
+                "title": "${ui.windowTitle}",
+                "dockTool": "simpleSketchingToggleTool",
+                "closable": true,
+                "maximizable": false,
+                "minimizeOnClose": true,
+                "resizable": false,
+                "marginBox": {
+                    "w": 415,
+                    "h": 90,
+                    "l": 20,
+                    "t": 125
+                },
+                "windowClass": "noPadding"
+            }
+        }
+    ],
+    "components": [
+        {
+            "name": "Config",
+            "impl": "./SimpleSketchingWidgetFactory",
+            "provides": [
+                "dijit.Widget"
+            ],
+            "instanceFactory": true,
+            "properties": {
+                "widgetRole": "simpleSketchingWidget",
+                "graphicsLayerId": "graphicsLayerId",
+                "graphicsLayerTitle": "graphicsLayerTitle",
+                "graphicsLayerListMode": "graphicsLayerListMode"
+            },
+            "references": [
+                {
+                    "name": "_mapWidgetModel",
+                    "providing": "map-widget.MapWidgetModel"
+                }
+            ]
+        },
+        {
+            "name": "SimpleSketchingToggleTool",
+            "impl": "ct/tools/Tool",
+            "provides": [
+                "ct.tools.Tool"
+            ],
+            "propertiesConstructor": true,
+            "properties": {
+                "id": "simpleSketchingToggleTool",
+                "title": "${tool.title}",
+                "tooltip": "${tool.tooltip}",
+                "iconClass": "icon-transparency",
+                "toolRole": "toolset",
+                "togglable": true,
+                "rules": {
+                    "noGroup": true
+                }
+            }
+        }
+    ]
+}

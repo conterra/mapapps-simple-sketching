@@ -19,5 +19,7 @@ import { Messages } from "../bundle";
 export default {
     bundleName: "Hallo Welt",
     bundleDescription: "Das Modul gibt Hallo aus.",
-    hello: "Hallo Welt"
+    ui: {
+        windowTitle: "Simple Sketching"
+    }
 } satisfies Messages;
