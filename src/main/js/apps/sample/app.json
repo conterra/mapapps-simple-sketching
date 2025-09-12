@@ -421,6 +421,13 @@
                 "showLayerLegend": true
             }
         },
+        "toolrules": {
+            "ToolActiveStateManager": {
+                "activateOnStartToolIds": [
+                    "simpleSketchingToggleTool"
+                ]
+            }
+        },
         "toolset": {
             "ToolsetManager": {
                 "toolsets": [

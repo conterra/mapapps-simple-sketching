@@ -19,6 +19,10 @@ const i18n = {
         bundleName: "Hello World",
         bundleDescription: "This bundle prints Hello.",
         ui: {
+            tool: {
+                title: "Simple Sketching",
+                tooltip: "Simple Sketching"
+            },
             windowTitle: "Simple Sketching"
         }
     },

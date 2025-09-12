@@ -75,9 +75,9 @@
             "propertiesConstructor": true,
             "properties": {
                 "id": "simpleSketchingToggleTool",
-                "title": "${tool.title}",
-                "tooltip": "${tool.tooltip}",
-                "iconClass": "icon-transparency",
+                "title": "${ui.tool.title}",
+                "tooltip": "${ui.ui.tool.tooltip}",
+                "iconClass": "icon-pencil",
                 "toolRole": "toolset",
                 "togglable": true,
                 "rules": {

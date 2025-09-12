@@ -20,6 +20,10 @@ export default {
     bundleName: "Hallo Welt",
     bundleDescription: "Das Modul gibt Hallo aus.",
     ui: {
+        tool: {
+            title: "Simple Sketching",
+            tooltip: "Simple Sketching"
+        },
         windowTitle: "Simple Sketching"
     }
 } satisfies Messages;
