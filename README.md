@@ -7,7 +7,7 @@
 The `dn_simplesketching` bundle provides simple sketching functionality within map.apps applications. It wraps the Esri Sketch widget to enable users to create, edit, and manage graphics on the map. The bundle creates and manages a graphics layer specifically for sketch content and provides a dockable widget interface for sketching operations.
 
 
-![Screenshot App](https://github.com/conterra/mapapps-attribute-slider/blob/main/screenshot.png)
+![Screenshot App](https://github.com/conterra/mapapps-simple-sketching/blob/main/screenshot.png)
 
 ### Sample App
 
@@ -15,7 +15,7 @@ The `dn_simplesketching` bundle provides simple sketching functionality within m
 
 ### Documentation & Installation
 
-[Attribute Slider Documentation Link](https://github.com/conterra/mapapps-attribute-slider/tree/master/src/main/js/bundles/dn_simplesketching)
+[Attribute Slider Documentation Link](https://github.com/conterra/mapapps-simple-sketching/tree/master/src/main/js/bundles/dn_simplesketching)
 
 ## Development Quick Start
 
