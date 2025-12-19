@@ -11,13 +11,13 @@
     "main": "",
     "productName": "devnet-mapapps-simplesketching",
     "dependencies": {
-        "ct": "^4.9.0",
-        "esri": "^4.14.0",
-        "esri-widgets": "^4.9.0",
-        "map-widget": "^4.9.0",
-        "apprt-binding": "^4.9.0"
+        "@arcgis/core": "^4.33.0",
+        "ct": "^4.20.0",
+        "esri-widgets": "^4.20.0",
+        "map-widget": "^4.20.0",
+        "apprt-binding": "^4.20.0"
     },
-    "CSS-Themes-Extension": [
+    "cssThemesExtension": [
         {
             "name": "*",
             "files": [
@@ -34,7 +34,7 @@
                 "closable": true,
                 "maximizable": false,
                 "minimizeOnClose": true,
-                "resizable": false,
+                "resizable": true,
                 "marginBox": {
                     "w": 415,
                     "h": 90,
