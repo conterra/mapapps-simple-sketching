@@ -34,7 +34,7 @@
                 "closable": true,
                 "maximizable": false,
                 "minimizeOnClose": true,
-                "resizable": false,
+                "resizable": true,
                 "marginBox": {
                     "w": 415,
                     "h": 90,
