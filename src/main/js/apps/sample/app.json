@@ -405,14 +405,20 @@
                         }
                     ]
                 },
-                "view": {
-                    "viewmode": "2D",
-                    "center": {
-                        "x": 774853,
-                        "y": 6610677,
-                        "spatialReference": 3857
-                    },
-                    "scale": 140000
+               "view": {
+                    "viewmode": "3D",
+                    "camera": {
+                        "heading": 50,
+                        "tilt": 81,
+                        "position": {
+                            "x": -74.0338,
+                            "y": 40.6913,
+                            "z": 700,
+                            "spatialReference": {
+                                "wkid": 4326
+                            }
+                        }
+                    }
                 }
             }
         },
